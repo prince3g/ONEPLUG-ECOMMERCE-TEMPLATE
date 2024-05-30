@@ -1,0 +1,204 @@
+/*body{
+	background: #F2F2F2 !important;
+}*/
+/*recpt-sec*/
+.recpt-sec{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 30px 0px;
+}
+.recpt-sec .site-container{
+	display: flex;
+	justify-content: center;
+}
+/*recpt-sec-box*/
+.recpt-sec-box{
+	position: relative;
+	width: 500px;
+	height: auto;
+}
+@media screen and (max-width:510px){
+	.recpt-sec-box{
+		width: 100% !important;
+	}
+}
+.recpt-sec-box-head{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.recpt-sec-box-head img{
+	max-width: 130px !important;
+}
+
+.recpt-sec-box-head  p{
+	font-size: 15px !important;
+	font-weight: 500;
+	color: #9b9b9b;
+	text-transform: uppercase;
+}
+/*recpt-sec-box-main*/
+.recpt-sec-box-main{
+	width: 100%;
+	height: auto;
+	position: relative;
+	border-radius: 10px;
+	background: #ffffff;
+	-webkit-box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 10px 34px -16px rgb(0 0 0 / 8%), 0 6px 4px hsl(0deg 0% 64% / 6%);
+    -moz-box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 10px 34px -16px rgb(0 0 0 / 8%), 0 6px 4px hsl(0deg 0% 64% / 6%);
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 10px 34px -16px rgb(0 0 0 / 8%), 0 6px 4px hsl(0deg 0% 64% / 6%);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/*hhat*/
+.hhat{
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-gap: 10px;
+}
+.hhat-1{
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+.hhat-1-Main{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.hhat-1-Main h3{
+	font-size: 2.5em;
+	font-weight: 500;
+	color: #7E4FFF;
+}
+.hhat-1-Main p{
+	font-size: 14px !important;
+	color: #9b9b9b;
+}
+.hhat-2{
+	position: relative;
+	width: auto;
+	height: auto;
+}
+.hhat-2 img{
+	max-width: 80px;
+}
+@media screen and (max-width:400px){
+	.hhat-1-Main h3{
+		font-size: 2em !important;
+	}
+	.hhat-2 img{
+	max-width: 60px !important;
+}
+}
+/*uls-sec*/
+.uls-sec{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.uls-sec table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+ overflow-x: auto;
+}
+.uls-sec th, .uls-sec td {
+  text-align: left;
+  padding:10px;
+  border: 1px solid #F5F5F5;
+}
+.uls-sec table tr{
+	width: 100% !important;
+	font-size: 14px !important;
+}
+.uls-sec table thead tr th{
+	font-weight: 700 !important;
+	font-size: 14px;
+	white-space:  nowrap;
+	background: #F8F8F8;
+}
+
+.uls-sec table tr td:last-child{
+	white-space: nowrap;
+	font-weight: 500;
+}
+
+.uls-sec ul{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.uls-sec ul li{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding:5px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 500;
+	background: #F8F8F8;
+	margin-top: 10px;
+}
+.uls-sec ul .uls-sec-ttl{
+	font-size: 25px;
+	border-top: 1px solid #F5F5F5;
+	background: transparent;
+}
+@media screen and (max-width:400px){
+	.uls-sec ul .uls-sec-ttl{
+		font-size: 20px !important;
+	}
+}
+.uls-sec ul li .ttl-span{
+	background: url(../svg/brush-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+/*shhss-btns*/
+.shhss-btns{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.shhss-btn{
+	position: relative;
+	width: 80px;
+	height: 35px;
+	outline: none;
+	border:1px solid transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: all 0.3s ease-in-out;
+}
+.shhss-btn:last-child{
+	margin-left: 10px;
+	background: #ECEEF5;
+}
+.shhss-btn:last-child:hover{
+	background:#DFE2EE;
+}
+.shhss-btn:first-child{
+	background: transparent;
+	border-color: #CFD9E0;
+}
+.shhss-btn:first-child:hover{
+	background:#F7FAFB;
+}

@@ -1,0 +1,49 @@
+.term_sec{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.term_sec_header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .term_sec_header{
+        padding: 25px 0px !important;
+    }
+}
+.term_sec_header h3{
+    font-size: calc(1.5vw + 1.5vh + 1.8vmin);
+     line-height: 110%;
+    color: #7E4FFF;
+}
+
+
+@media screen and (max-width:500px){
+    .term_sec_header h3{
+        font-size: 2.5em !important;
+    }
+}
+
+
+
+.term_sec_main{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.term_sec_main p{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.term_sec_main p:first-child{
+    margin-top: 0px;
+}
